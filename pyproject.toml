@@ -19,4 +19,5 @@ dependencies = [
     "pymupdf>=1.25.5",
     "pypdf>=5.4.0",
     "python-dotenv>=1.1.0",
+    "unstructured>=0.17.2",
 ]

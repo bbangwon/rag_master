@@ -3,15 +3,16 @@ name = "rag-master"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
-requires-python = ">=3.11"
+requires-python = ">=3.10,<3.13"
 dependencies = [
     "beautifulsoup4>=4.13.4",
     "faiss-cpu>=1.11.0",
+    "graphrag>=2.3.0",
     "hf-xet>=1.1.2",
     "ipykernel>=6.29.5",
     "kiwipiepy>=0.21.0",
     "langchain>=0.3.25",
-    "langchain-chroma>=0.2.3",
+    "langchain-chroma<0.2.3",
     "langchain-community>=0.3.23",
     "langchain-core>=0.3.56",
     "langchain-experimental>=0.3.4",

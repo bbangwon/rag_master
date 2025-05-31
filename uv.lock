@@ -2205,6 +2205,20 @@ wheels = [
 ]
 
 [[package]]
+name = "langchain-neo4j"
+version = "0.3.0"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "langchain" },
+    { name = "langchain-core" },
+    { name = "neo4j" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/07/f0/c889533b89756ebd5660cbcf2cad1299fd3bbbada956530c0f8fc38e578f/langchain_neo4j-0.3.0.tar.gz", hash = "sha256:747542704f39c800bcd5c6b518b5d2b7fe5538b8b914b7772c29a8062617472e", size = 35092, upload-time = "2025-01-20T10:45:05.009Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/76/f2/ea799235787a1405fa3574b9afc95aa2644c4acc59d86daff5329a112681/langchain_neo4j-0.3.0-py3-none-any.whl", hash = "sha256:6069eb748fe959d7c97add82ca3de8c0b9018dfdaa05f823aa970606f8e5cdb7", size = 38829, upload-time = "2025-01-20T10:45:02.713Z" },
+]
+
+[[package]]
 name = "langchain-ollama"
 version = "0.3.2"
 source = { registry = "https://pypi.org/simple" }
@@ -2769,6 +2783,18 @@ source = { registry = "https://pypi.org/simple" }
 sdist = { url = "https://files.pythonhosted.org/packages/dd/fa/f4c2b2524b6b1e7475af933849ecaad280822eab5631151ccb1993d600ce/narwhals-1.38.2.tar.gz", hash = "sha256:7c5fbc9f2b8e1d5d95f49dcef9c2d94bf17810de68c87ff195dc7d22f7b3eeb5", size = 277368, upload-time = "2025-05-08T17:02:28.125Z" }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/56/45/59251121eb801f033ffdd56d8893a0f20ec661bdc362f8d52a4e4d547f91/narwhals-1.38.2-py3-none-any.whl", hash = "sha256:a33a182e32f18d794a04e7828a5c401fb26ce9083f609993e7e5064aace641c7", size = 338437, upload-time = "2025-05-08T17:02:25.88Z" },
+]
+
+[[package]]
+name = "neo4j"
+version = "5.28.1"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "pytz" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/4b/20/733dac16f7cedc80b23093415822c9763302519cba0e7c8bcdb5c01fc512/neo4j-5.28.1.tar.gz", hash = "sha256:ae8e37a1d895099062c75bc359b2cce62099baac7be768d0eba7180c1298e214", size = 231094, upload-time = "2025-02-10T08:36:22.566Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/6a/57/94225fe5e9dabdc0ff60c88cbfcedf11277f4b34e7ab1373d3e62dbdd207/neo4j-5.28.1-py3-none-any.whl", hash = "sha256:6755ef9e5f4e14b403aef1138fb6315b120631a0075c138b5ddb2a06b87b09fd", size = 312258, upload-time = "2025-02-10T08:36:16.209Z" },
 ]
 
 [[package]]
@@ -4383,11 +4409,13 @@ dependencies = [
     { name = "langchain-core" },
     { name = "langchain-experimental" },
     { name = "langchain-huggingface" },
+    { name = "langchain-neo4j" },
     { name = "langchain-ollama" },
     { name = "langchain-openai" },
     { name = "lxml" },
     { name = "matplotlib" },
     { name = "mermaid-py" },
+    { name = "neo4j" },
     { name = "pandas" },
     { name = "pdfplumber" },
     { name = "pillow" },
@@ -4415,11 +4443,13 @@ requires-dist = [
     { name = "langchain-core", specifier = ">=0.3.56" },
     { name = "langchain-experimental", specifier = ">=0.3.4" },
     { name = "langchain-huggingface", specifier = ">=0.1.2" },
+    { name = "langchain-neo4j", specifier = ">=0.3.0" },
     { name = "langchain-ollama", specifier = ">=0.3.2" },
     { name = "langchain-openai", specifier = ">=0.3.14" },
     { name = "lxml", specifier = ">=5.4.0" },
     { name = "matplotlib", specifier = ">=3.10.3" },
     { name = "mermaid-py", specifier = ">=0.8.0" },
+    { name = "neo4j", specifier = ">=5.28.1" },
     { name = "pandas", specifier = ">=2.2.3" },
     { name = "pdfplumber", specifier = ">=0.11.6" },
     { name = "pillow", specifier = ">=11.2.1" },

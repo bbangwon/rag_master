@@ -20,6 +20,7 @@ dependencies = [
     "langchain-neo4j>=0.3.0",
     "langchain-ollama>=0.3.2",
     "langchain-openai>=0.3.14",
+    "langgraph>=0.4.8",
     "lxml>=5.4.0",
     "matplotlib>=3.10.3",
     "mermaid-py>=0.8.0",
